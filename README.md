@@ -34,11 +34,18 @@ Open your terminal and install required packages with
 ```sh
 npm install
 ```
-After installation finishes run `node register.js` to deploy slash commands and then run `node index.js` in terminal to start the bot.
+## 🧠 Runnning the bot
+After installation finishes run
+```sh
+    node register.js
+```
+to deploy slash commands and then run
+```sh
+    node index.js
+````
+in terminal to start the bot.
 ## 📸 Screenshots
-Soon
-## ❤️ Donations
-You can **[support](https://reymit.ir/itz_arshia)** me by donating if you like the project!
-> Only available for Iranians :(
+![image](https://github.com/vanny-y/Ori-Bot/assets/64766541/51844fbd-3264-4c6f-b82d-c4d0d4ff287c)
+![image](https://github.com/vanny-y/Ori-Bot/assets/64766541/ba9d3c4e-a5d3-49c1-b934-f64c824b4bb1)
 
 Made with ❤️ and JavaScript, Don't Forget to ⭐
