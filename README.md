@@ -1,4 +1,4 @@
-<h1 align="center">"iTz DJ" an Advanced Discord Music Bot for YOU</h1>
+<h1 align="center">"Ori Bot", an Advanced Discord Music Bot for your discord server providing high quality audio and user experience</h1>
 
 <div align="center">
     <a href="https://github.com/iTzArshia/iTz-DJ/stargazers"> <img src="https://img.shields.io/github/stars/iTzArshia/iTz-DJ.svg" alt="GitHub stars"/> </a>
