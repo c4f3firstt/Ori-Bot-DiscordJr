@@ -24,8 +24,8 @@ Open the `config.json` file and change the following to your desired values:
 ```
 ⚠️ **Important: ** ⚠️ For your bot safety and token protection create  `.env` file in your working directory if you're running it locally and set the following values.
 ```.env
-    ClientID = Put your Bot ID/Client ID here,
-    Token = Put your Bot Token here
+ClientID = Put your Bot ID/Client ID here,
+Token = Put your Bot Token here
 ```
 or create new secrets if you're working on platforms like [https://replit.com/](Replit) or any cloud deployment servers.
 
@@ -37,11 +37,11 @@ npm install
 ## 🧠 Runnning the bot
 After installation finishes run
 ```sh
-    node register.js
+node register.js
 ```
 to deploy slash commands and then run
 ```sh
-    node index.js
+node index.js
 ````
 in terminal to start the bot.
 ## 📸 Screenshots
