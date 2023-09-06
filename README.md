@@ -27,7 +27,7 @@ Open the `config.json` file and change the following to your desired values:
 ClientID = Put your Bot ID/Client ID here,
 Token = Put your Bot Token here
 ```
-or create new secrets if you're working on platforms like [https://replit.com/](Replit) or any cloud deployment servers.
+or create new secrets if you're working on platforms like [Replit](https://replit.com/) or any cloud deployment servers.
 
 ## 🧠 installation
 Open your terminal and install required packages with
