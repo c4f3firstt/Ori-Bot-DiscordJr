@@ -13,10 +13,10 @@
     "libsodium-wrappers": "^0.7.10"
   },
   "name": "itz-dj",
-  "description": "\"iTz DJ\" an Advanced Discord Music Bot for YOU",
+  "description": "\"Ori Bot\", an Advanced Discord Music Bot for YOU",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/iTzArshia/iTz-DJ",
-  "author": "iTz Arshia",
+  "repository": "https://github.com/vanny-y/Ori-Bot",
+  "author": "vanny-y",
   "license": "MIT"
 }
