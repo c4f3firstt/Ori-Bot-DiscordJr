@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:image" content="img/assets/index-meta.png">
+    <meta name="twitter:title" content="Mevid - Open Video Chat Room">
+    <link rel="shortcut icon" href="img/assets/favicon.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MEVID is a free open source project stratigically developed by Yasin Vandry with the purpose of helping out users whos often prepare occasional meetings, conferences and livestreams.">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="theme-color" content="#0052CA">
+    <title>Mevid - Open Chatroom</title>
+</head>
+<body>
+    <section class="cross-plus-page" id="cross-plus-page">
+        <img src="img/assets/mobizen.svg" alt="cross-plus-logo" class="cross-plus-logo">
+        <p class="coming-soon">Coming soon!</p>
+        <hr>
+        <span class="git-hub-text">
+           <code> To avoid this page maximizing your browser and refresh the tab because you can't acces MEVID through your mobile device or a tablet, only <i>MEVID CROSS+</i> is capable of cross platforms performance which is coming soon. Sorry for the inconvenience. Try opening this link from your laptop or PC.<br> HAVE A GOOD TIME WHILE USING MEVID. <code>~ Yasin Vandry</code> <br></code></span>
+    </section>
+    <section class="dialog" id="dialog">
+        <div class="dialog-wrapper">
+            <div class="dialog-container">
+                <p class="dialog-text"></p>
+                <div class="dialog-btns">
+                   <button class="stay btn" id="stay">Stay</button>
+                    <button class="leave btn" id="leave">Leave</button> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Login page -->
+    <section class="login-page" id="login-page">
+        <div class="logo-holder">
+            <img src="img/logo.svg" alt="" class="logo">
+            <!-- <hr class="line"> -->
+            <h3 class="sub">Welcome to Mevid, open video chatroom</h3>
+        </div>
+        <div class="input-holder">
+            <input type="text" class="user-name" id="user-name" placeholder="Username">
+            <button class="enter-btn" id="join-btn">Join Room</button>
+        </div>
+        <div class="agreement">
+            <div class="check-box-bg" id="check-box-bg">
+                <input type="checkbox" id="check-box">
+            </div>
+            <p class="agreement-text">By joining the room you have to agree to the terms of services.</p>
+        </div>
+        <div class="cp-holder">
+            <hr style="width: 80%;border-top-style:none;border-color: rgba(255, 255, 255, 0.137);">
+            <p>&copy; 2021 All Reserved. Made with ♥ by <a href="https://instagram.com/_yasvan" target="_blank" style="transition: 0.3s;">Yasin Vandry</a></p>
+        </div>
+    </section>
+    <!-- Chat room -->
+    <section class="chat-room" id="chat-room">
+        <div class="left-container">
+            <div class="header">
+                <div class="logo0">
+                    <img src="img/logo.svg" alt="logo0" class="logo">
+                </div>
+                <div class="header-right-wrapper" id="header-right-wrapper">
+                    <p class="link-copied-banner" id="link-copied-msg">Link copied successfully!</p>
+                    <p class="user-joined-banner" id="user-join-msg"></p>
+                    <div class="header-title">
+                        <span class="title">Open Chatroom    </span>
+                        <span class="ver-text">Version 0.3043920-YV</span>
+                    </div>
+
+                    <button class="share-btn" title="Share Room Link To Friends" id="copy-link">
+                        <img src="img/assets/share.svg" alt="" class="share-icon">
+                    </button>
+                </div>
+            </div>
+            <div class="stream-container" id="stream-container">
+                <div class="video-wrapper" id="video-wrapper">
+                </div>
+                <div class="users-stream-wrapper" id="users-stream-wrapper">
+                    <div class="users-wrapper" id="user-wrapper" title="Room Mates">
+                        <div class="users-video-wrapper" id="users-video-wrapper">
+                            <div class="room-cover" id="room-cover" title="Currently there's no mate available">
+                                <img src="img/assets/rem.svg" alt="empty-room" class="room-cv-ico">
+                                <p class="rem-text" id="rem-text">Room is Empty!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="control-wrapper">
+                <div class="ctrl-container">
+                    <div class="ctrl" id="cam-btn" title="Mute Camera">
+                        <img src="img/assets/cam.svg" alt="" class="ctrl-icon" id="cam-icon">
+                    </div>
+                </div>
+                <div class="ctrl-container">
+                    <div class="ctrl" id="mic-btn" title="Mute Microphone">
+                        <img src="img/assets/mic.svg" alt="" class="ctrl-icon" id="mic-icon">
+                    </div>
+                </div>
+                <div class="ctrl-container">
+                    <div class="ctrl" id="leave-btn" title="Leave Room">
+                        <img src="img/assets/leave1.svg" alt="" class="ctrl-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="right-container"> -->
+            <!-- <div class="chat-header">
+                <img src="img/assets/chat.svg" alt="">
+                <span class="title2">Chats</span>
+            </div> -->
+            <!-- <div class="chat-box" id="chat-box"> -->
+                <!-- <div class="chat-msg-box" id="chat-msg-box"> -->
+                    <!-- bubbles here -->
+                <!-- </div> -->
+                <!-- <div class="chat-input-box" id="chat-input-box">
+                    <input type="text" class="msg-input" id="msg-input" placeholder="Type here..">
+                    <button class="msg-btn" id="msg-btn">
+                        <img src="img/assets/send.svg" alt="" class="msg-btn-icon">
+                    </button>
+                </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+        <!-- <div class="main-user-container">
+            <div class="main-user-stream" id="main-user-stream"></div>
+            <div class="main-user-ctrl-container">
+                <div class="ctrl" id="camera-btn">
+                    <img src="img/assets/video.svg" alt="" class="ctrl-img">
+                </div>
+                <div class="ctrl" id="mic-btn">
+                    <img src="img/assets/mic.svg" alt="" class="ctrl-img">
+                </div>
+                <div class="ctrl" id="leave-btn">
+                    <img src="img/assets/leave.svg" alt="" class="ctrl-img">
+                </div>
+            </div>
+        </div>
+        <div class="joined-user-container">
+            <div class="joined-stream">
+                <div class="joined-1"></div>
+                <div class="joined-1"></div>              
+                <div class="joined-1"></div>
+                <div class="joined-1"></div>              
+                <div class="joined-1"></div>
+                <div class="joined-1"></div>
+            </div>
+        </div> -->
+    </section>
+    <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
